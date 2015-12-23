@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kec.project.layoutmeasuretest.CustomLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.kec.project.layoutmeasuretest.CustomImageView
+        android:id="@+id/iv_civ2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@android:drawable/ic_dialog_dialer" />
+
+    <com.kec.project.layoutmeasuretest.CustomImageView
+        android:id="@+id/iv_civ3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@android:drawable/ic_dialog_dialer" />
+
+    <!--<com.kec.project.layoutmeasuretest.CustomImageView-->
+        <!--android:id="@+id/iv_civ1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@android:drawable/ic_dialog_dialer" />-->
+
+    <com.kec.project.layoutmeasuretest.CustomTextView
+        android:id="@+id/tv_ctv1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:text="TEXT 1" />
+
+    <com.kec.project.layoutmeasuretest.CustomTextView
+        android:id="@+id/tv_ctv2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:text="TEXT 2" />
+
+</com.kec.project.layoutmeasuretest.CustomLinearLayout>
